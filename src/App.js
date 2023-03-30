@@ -6,7 +6,7 @@ import "./App.css"
 const LambdaDemo = () => {
 
   const appUrl = {
-    dev: "com.suez.tsme://",
+    dev: "com.suez.tsme",
     staging: "...",
     prod: "com./myapp://reset-password?user=test&token=13245",
     fallbackIosURL: 'https://toutsurmoneau.fr',
