@@ -6,7 +6,8 @@ import "./App.css"
 const LambdaDemo = () => {
 
   const appUrl = {
-    dev: "com.suez.tsme",
+    devIos: "com.suez.tsme",
+    devAndroid: "intent://#Intent;scheme=https;package=com.suez.tsme;end",
     staging: "...",
     prod: "com./myapp://reset-password?user=test&token=13245",
     fallbackIosURL: 'https://toutsurmoneau.fr',
