@@ -33,6 +33,12 @@ const LambdaDemo = () => {
       window.location.replace(appUrl.devAndroid);
     } else if( isIOS) {
       window.location.replace(appUrl.dev);
+    } else {
+      try {
+        window.location.replace(appUrl.dev);
+      } catch(e) {
+        console.log("not founddddd");
+      };
     }
     
     if (isAndroid) {
