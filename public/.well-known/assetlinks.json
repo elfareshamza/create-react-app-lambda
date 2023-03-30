@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.suez.tsme",
+               "sha256_cert_fingerprints": ["34:AE:C9:8A:38:92:3E:0F:C7:56:20:10:82:CD:D4:A3:B8:68:47:CD:74:FA:AD:B5:B6:90:69:F0:8D:B5:AE:C4"] }
+}]
