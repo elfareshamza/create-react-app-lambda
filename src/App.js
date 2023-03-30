@@ -29,7 +29,12 @@ const LambdaDemo = () => {
  function handleAppRedirect() {
  
     // Try to open the when user click in the "confirm" in popup
-    window.location.replace(appUrl.devAndroid);
+    if (isAndroid) {
+      window.location.replace(appUrl.devAndroid);
+    } else if( isIOS) {
+      window.location.replace(appUrl.dev);
+    }
+    
     if (isAndroid) {
         setTimeout(() => {
             // If the app is not installed,
