@@ -6,7 +6,7 @@ import "./App.css"
 const LambdaDemo = () => {
 
   const appUrl = {
-    devIos: "com.suez.tsme",
+    dev: "com.suez.tsme",
     devAndroid: "intent://#Intent;scheme=https;package=com.suez.tsme;end",
     staging: "...",
     prod: "com./myapp://reset-password?user=test&token=13245",
