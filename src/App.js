@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react"
+import React, { Component } from "react"
 import { isAndroid, isIOS } from 'react-device-detect';
 import logo from "./logo.svg"
 import "./App.css"
